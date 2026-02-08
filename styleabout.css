@@ -39,7 +39,7 @@ a{
     color: white;
 }
 
-#herocard{
+#aboutcard{
     height: 80%;
     width: 80%;
     background-color: #312f2f;
@@ -52,7 +52,7 @@ a{
     initial-value: 0deg ;
     inherits: false;
 }
-#herocard::after,#herocard::before{
+#aboutcard::after,#aboutcard::before{
     content: "";
     position: absolute;
     background-image: conic-gradient(from var(--angle), red,blue,green,yellow,red);
@@ -61,7 +61,7 @@ a{
     z-index: -2;
     animation: spin 3s linear infinite;
 }
-#herocard::before{
+#aboutcard::before{
     filter: blur(20px);
     opacity: 0.5;
 }
@@ -75,45 +75,29 @@ a{
     }
 }
 
-
-/*inner text*/
-
-#text{
-    margin: 20px;
+#conm{
+    margin: 30px;
+    font-size: 40px;
+    color: azure;
+}
+#logos{
+    height: 90%;
+    width: 700px;
     font-size: 50px;
-    color: #EEEEEE;
-    
-    #name{
-        width: auto;
-        margin-top: 10px;
-        background:linear-gradient(45deg, red,blue);
-        background-clip: text;
-        color: transparent;
-    }
+    display: flex;
+    color: white;
+    justify-content: space-evenly;
+    align-items: center;
 }
-
-#mypho{
-    height: 400px;
+#email{
+    color: azure;
     position: absolute;
-    right: 50px;
-    align-self: center;
-    border-radius: 50%;
+    left: 325px;
+    bottom: 150px;
+}
+i{
     transition: all 0.5s ease;
 }
-#mypho:hover{
-    transform: scale(1.1);
-}
-
-#hcjimg{
-    position: absolute;
-    bottom: 100px;
-    height: 200px;
-    transition: all 0.5s ease;
-}
-#hcjimg:hover{
-    transform: scale(1.1);
-}
-
-#hlo{
-    margin-bottom: 10px;
+i:hover{
+    transform: scale(1.2);
 }
