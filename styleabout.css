@@ -95,7 +95,26 @@ a{
     align-items: center;
     flex-wrap: wrap;
 }
-
+i{
+    transition: transform 0.5s ease;
+}
+i:hover{
+    transform: scale(1.2);
+}
+#insta{
+    transition: all 0.5s ease;
+}
+#insta:hover{
+    background:linear-gradient( to right,#833ab4,#fd1d1d,#fcb045) ;
+    background-clip: text;
+    color: transparent;
+}
+#wh{
+    transition: all 0.5s ease;
+}
+#wh:hover{
+    color: #25D366;
+}
 p{
     color: azure;
     font-size: 16px;
