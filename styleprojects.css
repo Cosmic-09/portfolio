@@ -11,13 +11,14 @@ body{
 }
 nav{
     width: min(90%, 420px);
+    font-family: "Inter", sans-serif;
     height: 50px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     font-size: clamp(14px, 2.5vw, 18px);
     position: absolute;
-    top: 12px;
+    top: 20px;
     z-index: 100;
 }
 a{
